@@ -1,0 +1,417 @@
+@media(max-width:1200px){
+  .intro__left__1{
+    width: 200px;
+    height: 30px;
+  }
+
+  .intro__left__2{
+    width: 200px;
+    height: 30px;
+  }
+
+  .intro__right__length{
+    width: 100%;
+    
+  }
+  .last__div{
+    width: 100px;
+    margin-right: 7px;
+    
+  }
+
+  .last__link{
+    width: 200px;
+    margin-left: 5px;
+  }
+
+  .right__img-div::before{
+    left: -15px;
+    width: 300px;
+  }
+
+  .icon__div{
+    margin-right: 15px;
+  }
+
+  .info__tools-text{
+    width: max-content;
+  }
+
+  .australia__list {
+    flex-wrap: wrap;
+  }
+
+  .footer__nav__list {
+    flex-wrap: wrap;
+  }
+}
+/* ========================================= */
+@media(max-width:992px){
+  .nav__List{
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    background: rgb(0, 0, 0, 0.7);
+    position: fixed;
+    right: 0;
+    top: 0;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    transition: 0.5s linear;
+    transform: translate(100%);
+  }
+
+  .nav__List.active{
+    transform: translate(0)
+  }
+
+  .menu__open{
+    display: block;
+    background: none;
+    font-size: 30px;
+    border: none;
+    color: rgb(219, 233, 205);
+  }
+
+  .menu__open:focus{
+    border: none;
+    outline: none;
+  }
+
+  .header__nav{
+    justify-content: space-between;
+  }
+
+  .menu__close{
+    display: block;
+    background: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu__close:focus{
+    outline: none;
+  }
+
+  .header__link{
+    margin-bottom: 30px;
+    display: block;
+    width: max-content;
+  }
+  .header__title{
+    font-size: 45px;
+    line-height: 65px;
+  }
+
+  .last__link{
+    width: 150px;
+  }
+
+  .intro__left__2{
+    width: 150px;
+  }
+  .intro__left__1{
+    width: 150px;
+  }
+
+  .intro__info {
+    flex-wrap: wrap;
+  }
+
+  .intro__info__tools {
+    width: 45%;
+  }
+
+  .intro__info__tools:nth-of-type(3){
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+
+  .company__infos {
+    flex-direction: column;
+  }
+
+  .company__infos__left{
+    width: 100%;
+  }
+
+  .company__infos__right {
+    width: 100%;
+  }
+
+  .housedescription {
+    flex-direction: column-reverse;
+  }
+
+  .housedescription__left {
+    width: 100%;
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .last__infos {
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+
+  .last__infos-div{
+    width: 100%;
+  }
+  .last__infos-div2{
+    width: 100%;
+  }
+
+  .title__h3{
+    margin-bottom: 20px;
+  }
+
+  .footer__contact {
+    flex-direction: column;
+  }
+
+  .footer__link__last{
+    margin-bottom: 10px;
+  }
+
+  .footer__contact-text{
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .footer__linkad{
+    margin-bottom: 10px;
+  }
+}
+
+/* ================================ */
+@media(max-width:768px){
+  .header__title{
+    margin-top: 100px;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .header__text{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .searchs {
+    margin-top: 40px;
+  }
+
+  .header__nav {
+    padding-top: 30px;
+  }
+
+  .header {
+    min-height: 650px;
+  }
+
+  .intro__left__2{
+    width: 100px;
+    height: 40px;
+  }
+  .intro__left__1{
+    width: 100px;
+    height: 40px;
+  }
+
+  .last__link{
+    width: 100px;
+  }
+
+  .last__div{
+    width: 80px;
+    margin-right: 4px;
+  }
+
+  .intro__info {
+    flex-direction: column;
+  }
+
+  .intro__info__tools {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .infos__left-title{
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .footer__link {
+    margin-right: 5px;
+  }
+
+  .first__text-intro{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .first__text-second{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .infos__left-first{
+    margin-bottom: 20px;
+  }
+
+  .right__img-div::before{
+    display: none;
+  }
+
+  .booking__tools-text{
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .booking__tools__text{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .header__link {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media(max-width:576px){
+  .header__title{
+    font-size: 28px;
+  }
+
+  .infos__right-img{
+    width: 100%;
+  }
+
+  .housedescription::after{
+    display: none;
+  }
+
+  .last__link{
+    width: 65px;
+    font-size: 16px;
+  }
+
+  .last__div:nth-of-type(3){
+    display: none;
+  }
+
+  .intro__left__2{
+    width: 65px;
+  }
+  .intro__left__1{
+    width: 65px;
+  }
+
+  .searchs {
+    justify-content: space-around;
+  }
+
+  .last__div{
+    width: 65px;
+  }
+
+  .title__h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .intro__info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .pictures__initial {
+    flex-direction: column;
+
+  }
+  .initial__pictures{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .main__title3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .contact__link{
+    font-size: 20px;
+    width:100px;
+  }
+
+  .contact__span{
+    font-size: 20px;
+  }
+
+  .header__link{
+    margin-left: 10px;
+  }
+
+  .menu__close{
+    margin-bottom: 10px;
+  }
+
+  .nav__List{
+    width: 55%;
+  }
+
+
+  .main__title13 {
+    font-size: 26px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .housedescription__left-text{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .hosuedescription__left-link{
+    font-size: 20px;
+    line-height: 30px;
+    width: 200px;
+    margin-top: 10px;
+  }
+
+
+  .info__tools-img{
+    height: 100%;
+  }
+  .intro__info__tools {
+    min-height: 0;
+  }
+
+  .title__h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 20px;
+  }
+
+  .last__infos-div__text{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .last-div2__text{
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
